@@ -1,35 +1,39 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
 .nav{
+    height: 100px;
+    width: 1340px;
     background-color: rgb(100, 93, 93);
     display: flex;
     justify-content: space-between;
-    font-family: "Roboto", sans-serif;
     align-items: center;
-    padding: auto;
     
 }
 .nav-title{
     margin-left: 40px;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
 
 }
 .nav-links{
-    width: 40%;
+    width: 50%;
+    margin-right: 20px ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none; /*Para que no aparezcan los circulitos*/
 }
 .nav a {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none; /*Para quitarle el subrayado*/
 }
 
 .btn{
-    width: 150px;
-    height:50px ;
+    width: 100px;
+    height:30px ;
     background-color: rgba(0, 217, 255, 0.822);
     box-shadow: 5px 5px black;
-    font-size: 20px;
+    font-size: 13px;
     border: black solid;
 }
